@@ -1,0 +1,120 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.wrap-login100 {
+  width: 960px;
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.login100-pic {
+  width: 316px;
+  left: 200px;
+  top:50px;
+}
+
+.login100-pic img {
+  max-width: 100%;
+}
+
+.table-sp
+{
+  padding: 40px;
+}
+input
+    {
+      padding:12px 20px;
+      margin:8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom:3px solid #BD1143;
+      /*border-radius: 50px;*/
+      /*background-color: #BD1143;*/
+      /*color:white;*/
+      font-size: 20px;
+    }
+    input:focus
+    {
+      outline: 0;
+      box-shadow: none !important;
+      border: none;
+      border-bottom:3px solid #BD1143;
+      -webkit-transition-duration:1.5s;
+    }
+    .button
+    {
+      outline: 0;
+      box-shadow: none !important;
+      background-color: #76A928;
+      font-family: monospace;
+      font-size: 20px;
+      color:white;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border-radius: 50px;
+      border:2px solid #76A928;
+      -webkit-transition-duration:0.8s;
+      overflow: hidden;
+      cursor: pointer;
+      width: 200px;
+      box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+      -moz-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+      -webkit-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+      -o-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+      -ms-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+    }
+    .button:hover
+    {
+      background-color:white;
+      color: black;
+    }
+  .fields
+  {
+    position: absolute;
+    right:250px;
+    top:170px;
+  }
+  h1
+  {
+    font-family: monospace;
+    letter-spacing: 2.5px;
+  }

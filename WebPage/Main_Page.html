@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img src="icon1.png" class="i">
+		<div class="overlay">
+			<div class="text">Raspberry Pi</div>
+		</div>	
+	</div>	
+	<div class="head"><br>Welcome to your Dashboard</div>
+	<div class="id">ID: <b>168970</b></div>
+	<hr style="height: 2px;">
+	<div class="tab">
+  		<button class="tablinks" id="b1" onclick="openCity(event, '1')">Room 1</button>
+  		<button class="tablinks" id="b2" onclick="openCity(event, '2')">Room 2</button>
+	</div>
+	<div id="1" class="tabcontent" style="display: block">
+		<div class="pos">
+			<table>
+	  			<tr>
+	    			<th><center>LIGHT</center></th>
+	  			</tr>
+	  			<tr>
+	    			<td>
+	    				<center><button onclick="fn1()" id="B">Press</button></center>
+	    			</td>
+	  			</tr>
+			</table>
+			<p id="ABC"><b></b></p>
+		</div>
+		<div class="abs">
+			<table>
+	  			<tr>
+	    			<th>
+	    				<center>FAN</center>
+	    			</th>
+	  			</tr>
+	  			<tr>
+	    			<td>
+	    				<center><button onclick="fn2()" id="B">Press</button></center>
+	    			</td>
+	  			</tr>
+			</table>
+			<p id="DEF"><b>STATUS: OFF</b></p>
+		</div>
+	</div>
+	<div id="2" class="tabcontent">
+  		<div class="ac_pos">
+			<table>
+  				<tr>
+    				<th>
+    					<center>AC</center>
+    				</th>
+  				</tr>
+  				<tr>
+    				<td>
+    					<center><button onclick="fn3()" id="B">Press</button></center>
+    				</td>
+  				</tr>
+			</table>
+			<p id="GHI"><b>STATUS: OFF</b></p>
+		</div>
+	</div>	
+	<div id="columnchart_material" style="width: 517px; height: 215px; padding: 5px; background-color: #F7F0F0"></div>
+	<div id="piechart" style="width: 494px; height: 294px; padding: 5px; background-color: #F7F0F0"></div>
+	<a class="weatherwidget-io" href="https://forecast7.com/en/22d5788d36/kolkata/" data-label_1="KOLKATA" data-label_2="WEATHER" data-font="Monaco" data-icons="Climacons Animated" data-mode="Current" data-theme="kitty" data-shadow="black" >KOLKATA WEATHER</a>
+	<hr class="line">
+	<center><h2> REQUEST A FEATURE: <a href="https://forms.gle/q2wPCbPvbNJLdnhF8"><button class="form">CLICK ME</button></a></h2></center>
+	<script src="script3.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+	
+</body>
+</html>

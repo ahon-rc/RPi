@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style type="text/css">
+		::placeholder
+		{
+			color:grey;
+			font-family: monospace;
+			opacity: 0.5;
+		};
+	</style>
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="img-03.jpg" alt="IMG">
+				</div>
+				<div class="fields">
+						<table>
+								<tr><td><center><h1>USER LOGIN</h1></center></td></tr>
+								<tr><td><input type="text" name="user_id" placeholder="User Id" id="uname"></td></tr>
+								<tr><td><input type="password" name="pass" placeholder="Password" id="pass"></td></tr>
+								<tr><td class="table-sp"><center><button class="button" onclick="login()">LOG IN</button></center></td></tr>
+						</table>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase.js"></script>
+	<script src="main.js"></script>
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+</body>
+</html>

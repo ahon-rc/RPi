@@ -1,0 +1,254 @@
+table{
+  			border-collapse: collapse;
+  			border: 2px solid black;
+  			width: 200px;
+  			height: 130px;
+  			-moz-border-radius: 50px;
+  			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		th{
+  			border-collapse: collapse;
+  			border: 2px solid #BD1143;
+  			height: 12px;
+  			background-color: white;
+  			color: #133913;
+  			font-family: Monospace;
+  			font-size: 16px;
+  			border-radius: 50px;
+  			cursor: default;
+		}
+		td{
+		  border-collapse: collapse;
+		  border: 2px solid #BD1143/*#003399*/;
+		  width: 100px;
+		  height: 50px;
+		  background-color: #BD1143;
+		  color: white;
+		}  
+		#B{
+		  -webkit-transition-duration: 0.4s;
+		  transition-duration: 0.4s;
+		  cursor: pointer;
+		  background-color: #D02B59;
+		  border: 0px solid #D02B59;
+		  border-radius: 50px;
+		  color: white;
+		  width: 105px;
+		  height: 45px;
+		  font-size: 17px;
+		  font-family: Monospace;
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		#B:hover{
+		  background-color: white;
+		  color: #133913;
+		  border-radius: 50px;
+		  border-color: white;
+		  width: 102px;
+		  height: 42px;
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		#B:focus{
+			outline: 0;
+    		box-shadow: none!important;
+		} 
+		.form{
+		  -webkit-transition-duration: 0.4s;
+		  transition-duration: 0.4s;
+		  cursor: pointer;
+		  background-color: #76A928;
+		  border: 0.5px solid #76A928;
+		  border-radius: 50px;
+		  color: white;
+		  width: 105px;
+		  height: 45px;
+		  font-size: 17px;
+		  font-family: Monospace;
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		.form:hover{
+		  background-color: white;
+		  color: #133913;
+		  border-radius: 50px;
+		  border-color: #76A928;
+		  width: 105px;
+		  height: 45px;
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		.form:focus{
+			outline: 0;
+    		box-shadow: none!important;
+		}
+		p{
+			width: 200px;
+  			margin-top: 20px;
+  			text-align: center;
+		}
+		.pos{
+			margin-left: 30px;
+			margin-top: 8px;
+		}
+		.abs{
+			position: absolute;
+			left: 335px;
+			top: 177px;
+		}
+		.ac_pos{
+			margin-top: 8px;
+			margin-left: 145px;
+		}
+		.head{
+			font-size: 32px;
+			font-family: monospace;
+			position: absolute;
+			display: inline-block;
+			left: 120px;
+			top: 6px;
+			height: 110px;
+			cursor: default;
+		}
+		.id{
+			position: absolute;
+			right: 20px;
+			top: 88px;
+			font-size: 18px;
+			font-family: monospace;
+			cursor: default;
+		}
+		.i{
+			display: block;
+			height: 100px;
+			width: 80px;
+		}
+		.overlay{
+			border-radius: 10px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: white;
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: 0.5s;
+		}
+  		.container:hover .overlay{
+  			opacity: 0.8;
+  		}
+  		.text{
+  			white-space: nowrap;
+  			color: black;
+  			font-size: 10px;
+  			font-family: monospace;
+  			position: absolute;
+  			overflow: hidden;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			-ms-transform: translate(-50%, -50%);
+  			cursor: default;
+  		}
+  		.container{
+  			position: relative;
+  			height: 100px;
+			width: 80px;
+			border-radius: 200px;
+			margin-left: 12px;
+  		}
+  		#columnchart_material{
+  			/*border: 2px solid #F7F0F0*//*#BD1143*/;
+  			margin-left: 40px;
+  			margin-top: 10px;
+  			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  			border: 2px solid #BD1143;
+  		}
+  		#piechart{
+  			/*border: 2px ridge black;*/
+  			/*border-radius: 5px;	*/
+  			padding: 0;
+  			position: absolute;
+			right: 60px;
+			top: 128px;
+			border: 2px solid #BD1143;
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  		}
+  		#b1{
+  			border-top-left-radius: 20px;
+  			border-top-right-radius: 20px;
+  			/*border: 1px ridge #BD1143;*/
+		}
+		#b2{
+  			border-top-left-radius: 20px;
+  			border-top-right-radius: 20px;
+  			/*border: 1px ridge #BD1143;*/
+		}
+		.tab {
+  			overflow: hidden;
+  			border-top-right-radius: 5px;
+  			border-top-left-radius: 5px;
+  			background-color: #BD1143;
+  			width: 350px;
+  			height: 35px;
+  			padding-left: 180px;
+  			margin-left: 40px;
+		}
+		.tab button {
+  			background-color: #D02B59;
+  			color: white;
+  			float: left;
+  			border: none;
+  			outline: none;
+  			cursor: pointer;
+  			padding: 14px 16px;
+  			transition: 0.3s;
+		}
+
+/* Change background color of buttons on hover */
+		.tab button:hover {
+  			background-color: white;
+  			color: black;
+		}
+
+/* Create an active/current tablink class */
+		.tab button.active {
+  			background-color: white;
+  			box-shadow: none;
+  			color: black;
+		}
+
+/* Style the tab content */
+		.tabcontent {
+		  display: none;
+		  padding: 6px 12px;
+		  border: 1px solid #BD1143;
+		  border-top: none;
+		  width: 504px;
+		  margin-left: 40px;
+		}
+		.tabcontent {
+		  animation: fadeEffect 0.5s; /* Fading effect takes 1 second */
+		}
+
+		/* Go from zero to full opacity */
+		@keyframes fadeEffect {
+		  from {opacity: 0;}
+		  to {opacity: 1;}
+		}
+		.weatherwidget-io{
+			width: 510px;
+			position: absolute;
+			left: 695px;
+			bottom: 130px;
+			border-radius: 50px;
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		.line{
+			position: relative;
+			bottom: 90px;
+		}
+		h2{
+			font-family: monospace;
+			position: relative;
+			bottom: 50px;
+		}
